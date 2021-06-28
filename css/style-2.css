@@ -1,0 +1,53 @@
+body {
+  background-color: #e6e6e6;
+}
+
+* {
+  color: #20201e;
+}
+
+.calculator .output p {
+  background-color: #eeeeee !important;
+}
+
+.calculator .b {
+  background-color: #d3cdcd;
+}
+
+.calculator .input #btnID4,
+.calculator .input #rest {
+  background-color: #388187;
+  -webkit-box-shadow: 0 4px 0 0 #2c5d64;
+          box-shadow: 0 4px 0 0 #2c5d64;
+  color: #eeeeee;
+}
+
+.calculator .input #btnID4:active,
+.calculator .input #rest:active {
+  background-color: #609397;
+}
+
+.calculator .input #equal {
+  background-color: #c85401;
+  -webkit-box-shadow: 0 4px 0 0 #863700;
+          box-shadow: 0 4px 0 0 #863700;
+}
+
+.calculator .input button {
+  -webkit-box-shadow: 0 4px 0 0 #a69c92;
+          box-shadow: 0 4px 0 0 #a69c92;
+  color: #20201e;
+}
+
+.calculator .input button:active {
+  background-color: #fffdfa;
+}
+
+#toggle {
+  background-color: #d3cdcd;
+}
+
+#toggle i {
+  background-color: #d05400;
+}
+/*# sourceMappingURL=style-2.css.map */

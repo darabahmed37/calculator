@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+* {
+  font-family: "Spartan";
+  color: white;
+  font-weight: 700;
+}
+#toggle {
+  width: 5rem;
+  height: 1.5rem;
+  background-color: #252d44;
+  border-radius: 16rem;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  i {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    left: 5px;
+    transition: all 0.3s ease;
+    display: block;
+    border-radius: 50%;
+    background: #d63c32;
+  }
+}
+.on2 {
+  margin-left: 1.77rem;
+}
+.on3 {
+  margin-left: 3.5rem;
+}
+#numbering {
+  width: 4rem;
+  display: flex;
+  margin-left: 6px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  span {
+    display: block;
+  }
+}
+body {
+  background-color: #3b4664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+header {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+}
+.calculator {
+  width: 30em;
+  height: 92em;
+  .output {
+    p {
+      background-color: #181f32;
+      padding: 2em;
+      text-align: right;
+      width: 72%;
+      border-radius: 20px;
+    }
+  }
+  .b {
+    background: #252d44;
+    display: flex;
+    width: 85%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: 28%;
+    border-radius: 15px;
+  }
+  .input {
+    display: grid;
+
+    grid-gap: 0.6rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    button {
+      background-color: #eae3db;
+      color: #4a4e5a;
+      border: 0;
+      height: 3.9rem;
+      cursor: pointer;
+      width: 5rem;
+      font-size: 29px;
+      font-weight: 700;
+      border-radius: 8px;
+      box-shadow: 0 4px 0 0;
+      &:active {
+        background-color: #f3e5d7c9;
+      }
+    }
+
+    #rest {
+      grid-column: 1 / span 2;
+      width: auto;
+      color: white;
+      box-shadow: 0 4px 0 0 #76819c;
+      background-color: #647299;
+      &:active {
+        background-color: #b7bcc9;
+      }
+    }
+    #equal {
+      grid-column: 3 / span 2;
+      width: auto;
+      color: white;
+      box-shadow: 0 4px 0 0 #c56055;
+      background-color: #d13f30;
+      &:active {
+        background-color: #d69b94;
+      }
+    }
+  }
+}

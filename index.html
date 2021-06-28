@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link id="style-1" rel="stylesheet" href="./css/style-1.css" />
+    <link id="style-2" rel="stylesheet" href="">
+    <link id="style-3" rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <header>
+            <h3>Calculator</h3>
+            <div class="switch">
+                <div id="numbering">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </div>
+                <div id="toggle">
+                    <i id="clickable"></i>
+                </div>
+            </div>
+        </header>
+        <div class="output">
+            <p style="overflow: hidden;" id="calculated">
+            </p>
+        </div>
+        <div class="b">
+            <section class="input">
+                <button onclick="get(this.id)" id="btnID1">7</button>
+                <button onclick="get(this.id)" id="btnID2">8</button>
+                <button onclick="get(this.id)" id="btnID3">9</button>
+                <button onclick="get(this.id)" id="btnID4">DEL</button>
+                <button onclick="get(this.id)" id="btnID5">4</button>
+                <button onclick="get(this.id)" id="btnID6">5</button>
+                <button onclick="get(this.id)" id="btnID7">6</button>
+                <button onclick="get(this.id)" id="btnID8">+</button>
+                <button onclick="get(this.id)" id="btnID9">1</button>
+                <button onclick="get(this.id)" id="btnID10">2</button>
+                <button onclick="get(this.id)" id="btnID11">3</button>
+                <button onclick="get(this.id)" id="btnID12">-</button>
+                <button onclick="get(this.id)" id="btnID13">.</button>
+                <button onclick="get(this.id)" id="btnID14">0</button>
+                <button onclick="get(this.id)" id="btnID15">/</button>
+                <button onclick="get(this.id)" id="btnID16">x</button>
+                <button onclick="get(this.id)" id="rest">Reset</button>
+                <button onclick="get(this.id)" id="equal">Equal</button>
+            </section>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/working.js"></script>
+</body>
+
+</html>

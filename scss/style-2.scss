@@ -1,0 +1,44 @@
+body {
+  background-color: #e6e6e6;
+}
+* {
+  color: #20201e;
+}
+.calculator {
+  .output {
+    p {
+      background-color: #eeeeee !important;
+    }
+  }
+  .b {
+    background-color: #d3cdcd;
+  }
+  .input {
+    #btnID4,
+    #rest {
+      background-color: #388187;
+      box-shadow: 0 4px 0 0 #2c5d64;
+      color: #eeeeee;
+      &:active {
+        background-color: #609397;
+      }
+    }
+    #equal {
+      background-color: #c85401;
+      box-shadow: 0 4px 0 0 #863700;
+    }
+    button {
+      box-shadow: 0 4px 0 0 #a69c92;
+      color: #20201e;
+      &:active {
+        background-color: #fffdfa;
+      }
+    }
+  }
+}
+#toggle {
+  background-color: #d3cdcd;
+  i {
+    background-color: #d05400;
+  }
+}
